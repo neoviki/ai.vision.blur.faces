@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -f face.detector.py ]; then
+    python3 face.detector.py "$@"
+elif [ -f /usr/local/bin/app.face.detector/face.detector.py ]; then
+    python3 /usr/local/bin/app.face.detector/face.detector.py "$@"
+else
+    echo "error: file {/usr/local/bin/app.face.detector/face.detector.py} not found"
+fi
+
