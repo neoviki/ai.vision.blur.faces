@@ -51,7 +51,7 @@ face.detector -b
 
 This will:
 - Show usage instructions
-- Prompt: _"This utility is going to access your camera. Are you okay with that? (y/N):"_
+- Prompt: _"This utility is going to access your camera. Are you okay with that? [Y]:"_
 - If the user confirms (`y` or `Y`), it starts webcam-based face detection
 
 ---
