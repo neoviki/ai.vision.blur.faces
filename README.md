@@ -79,6 +79,12 @@ Processed files are saved in the **current working directory**, with filenames l
 
 ---
 
+## Exit the Application
+
+Press q or Ctrl + C to exit the application gracefully.
+
+---
+
 ## Background
 
 This tool uses a **Caffe-based face detection model** developed by the OpenCV team. It utilizes **ResNet-10** as the backbone in a **Single Shot MultiBox Detector (SSD)** framework, optimized for real-time face detection using `cv2.dnn`.
