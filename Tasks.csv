@@ -1,0 +1,4 @@
+List
+Run in 3 threads ( t1: ui(display and keyboard interrupt), t2: terminal keyboard event listener, t3: main ). If any where ctrl+c or q is pressed either in the terminal or in the gui frame ( quit and kill other process )
+
+
